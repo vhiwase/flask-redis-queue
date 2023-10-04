@@ -39,8 +39,7 @@ services:
       - 6379:6379
 
   dashboard:
-    build: ./project/dashboard
-    image: dashboard
+    image: sad123/dashboard:v1
     container_name: dashboard
     ports:
       - 9181:9181
